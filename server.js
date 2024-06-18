@@ -11,7 +11,8 @@ let vehicles = [
     { vehicle_id: 132456, type: 'Scooter', lock_status: 'Lock', current_speed: 0, battery_level: 100, status: 'PARKING', location: '3.142,012', last_updated: '2019-07-02 9:00AM' },
     { vehicle_id: 987654, type: 'Scooter', lock_status: 'Unlock', current_speed: 5, battery_level: 75, status: 'MOVING', location: '2.125,114', last_updated: '2019-07-02 10:00AM' },
     { vehicle_id: 569825, type: 'Scooter', lock_status: 'Unlock', current_speed: 0, battery_level: 50, status: 'IDLING', location: '4.125,114', last_updated: '2019-07-02 10:00AM' },
-    { vehicle_id: 125864, type: 'Scooter', lock_status: 'Lock', current_speed: 0, battery_level: 15, status: 'TOWING', location: '5.125,114', last_updated: '2019-07-02 10:00AM' }
+    { vehicle_id: 125864, type: 'Scooter', lock_status: 'Lock', current_speed: 0, battery_level: 15, status: 'TOWING', location: '5.125,114', last_updated: '2019-07-02 10:00AM' },
+    { vehicle_id: 125864, type: 'Scooter', lock_status: 'Lock', current_speed: 0, battery_level: 0, status: 'TOWING', location: '5.125,114', last_updated: '2019-07-02 10:00AM' }
 ];
 
 // GET all vehicles
